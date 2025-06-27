@@ -4,7 +4,7 @@ import numpy as np
 from xgboost import XGBRegressor
 
 # 判斷當前執行環境
-if getattr(sys, 'frozen', False):  # 是否在打包後環境
+if getattr(sys, 'frozen', False):  
     base_path = sys._MEIPASS
 else:  # 開發環境
     base_path = os.path.dirname(os.path.abspath(__file__))
