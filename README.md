@@ -42,14 +42,28 @@ Model script: [`xgb_model.ipynb`](https://github.com/mellamochiao/Datascience_fi
 We developed a terminal-based application to predict surf conditions using the trained models. The program allows users to input basic weather data and outputs predicted swell height, period, power, and a surf suitability suggestion.
 
 ### Key Features:
-- Surf suitability assessment:
+Surf suitability assessment:
   - Good: Swell period between 8–16 sec
   - Acceptable: Swell period 6–8 sec with offshore wind
-- Warnings:
-  - **High wind alert:** wind speed > 19 m/s
-  - **Low temperature alert:** temperature < 20°C
+Warnings:
+  - High wind alert: wind speed > 19 m/s
+  - Low temperature alert: temperature < 20°C
 
-Script: [`surf_predict.py`](https://github.com/mellamochiao/Datascience_final_project/blob/main/surf_predict.py)
+### How to Run the Predictor Script
+
+To run the interactive surf condition predictor in your terminal:
+
+**Install the required libraries**
+Make sure you have Python installed. Then run:
+```bash
+pip install xgboost pandas numpy
+git clone https://github.com/mellamochiao/Datascience_final_project.git
+cd Datascience_final_project
+python surf_predict.py
+```
+
+
+
 
 
 ## References
