@@ -7,7 +7,7 @@ Taiwan is surrounded by ocean and hosts many world-famous surf spots such as Jin
 
 We used the [Surfline API](https://www.surfline.com/) via the `pysurfline` Python package to collect surf-related data for multiple international surf spots. Data was saved as CSV files for further analysis.
 
-Main script: `surfline_crawl.ipynb`
+Main script: [`surfline_crawl.ipynb`](https://github.com/mellamochiao/Datascience_final_project/blob/main/surfline_crawl.ipynb)
 
 ## Model Building
 
@@ -42,7 +42,6 @@ Model script: [`xgb_model.ipynb`](https://github.com/mellamochiao/Datascience_fi
 We developed a terminal-based application to predict surf conditions using the trained models. The program allows users to input basic weather data and outputs predicted swell height, period, power, and a surf suitability suggestion.
 
 ### Key Features:
-- Predicts swell height, period, and power using XGBoost
 - Surf suitability assessment:
   - Good: Swell period between 8–16 sec
   - Acceptable: Swell period 6–8 sec with offshore wind
@@ -52,20 +51,9 @@ We developed a terminal-based application to predict surf conditions using the t
 
 Script: [`surf_predict.py`](https://github.com/mellamochiao/Datascience_final_project/blob/main/surf_predict.py)
 
-## Discussion
-
-Our results show that the models perform well in predicting key swell metrics using accessible weather inputs. Future improvements could include:
-- Incorporating coastal geography (e.g., shoreline shape, slope)
-- Analyzing interactions between coastline and wind angles
-- Building a user-friendly UI/UX interface
 
 ## References
 
 1. [Surfline API Spot Forecast Example](https://giocaizzi.github.io/pysurfline/examples/SpotForecasts.html)
-2. [Surf Forecasting API Tutorial (Chinese)](https://medium.com/@williamChen0832/...)
-3. [Surf Forecast Interpretation Guide (Chinese)](https://www.awamemo.com/blog/outdoors/surfing/...)
-
-## Code Repository
-
-Full project and source code available at:  
-👉 [https://github.com/mellamochiao/Datascience_final_project](https://github.com/mellamochiao/Datascience_final_project)
+2. [Surf Forecasting API Tutorial ](https://medium.com/@williamChen0832/...)
+3. [Surf Forecast Interpretation Guide ](https://www.awamemo.com/blog/outdoors/surfing/...)
