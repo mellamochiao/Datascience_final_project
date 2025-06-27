@@ -1,7 +1,7 @@
 # Surf Condition Forecasting Using XGBoost
 
 ## Overview
-Taiwan is surrounded by ocean and hosts many world-famous surf spots such as Jinzun and Wushi Harbor. However, surfers often need to go to the beach in person to check for good waves. This project aims to build predictive models for wave conditions using publicly accessible weather and ocean data, providing surfers a tool to save time and make better surfing decisions.
+Taiwan is surrounded by ocean and hosts many world-famous surf spots such as Jinzun and Wushi Harbor. This project aims to build predictive models for wave conditions using publicly accessible weather and ocean data, providing surfers a tool to save time and make better surfing decisions.
 
 ## Data Collection
 
