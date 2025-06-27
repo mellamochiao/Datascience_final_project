@@ -46,7 +46,7 @@ Surf suitability assessment:
   - Good: Swell period between 8–16 sec
   - Acceptable: Swell period 6–8 sec with offshore wind
 
-  
+
 Warnings:
   - High wind alert: wind speed > 19 m/s
   - Low temperature alert: temperature < 20°C
@@ -54,6 +54,7 @@ Warnings:
 ### How to Run the Predictor Script
 
 To run the interactive surf condition predictor in your terminal:
+
 Make sure you have Python installed. 
 
 Then run:
