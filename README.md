@@ -52,18 +52,17 @@ Warnings:
 ### How to Run the Predictor Script
 
 To run the interactive surf condition predictor in your terminal:
+Make sure you have Python installed. 
 
-**Install the required libraries**
-Make sure you have Python installed. Then run:
+Then run:
 ```bash
 pip install xgboost pandas numpy
 git clone https://github.com/mellamochiao/Datascience_final_project.git
 cd Datascience_final_project
 python surf_predict.py
 ```
-
-
-
+Example output:
+<img width="926" alt="Image" src="https://github.com/user-attachments/assets/78a28855-80a3-4f6d-9b91-e4e7bc79919f" />
 
 
 ## References
